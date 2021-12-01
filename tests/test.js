@@ -9,7 +9,7 @@ describe('tests group description', () => {
     after(()=>{
       console.log('======== after');
     });
-    
+
     beforeEach(()=>{
       console.log('-------- beforeEach');
     });
@@ -26,5 +26,9 @@ describe('tests group description', () => {
       assert.deepEqual({name: 'joe'}, {name: 'joe'});  
       // assert.deepEqual({name: 'joe'}, {name: 'steve'});  
     });
+  });
+
+  context('tests sub-group 2 description', () => {
+    it('should test something', () => {})
   });
 });
