@@ -5,5 +5,10 @@ describe('tests group description', () => {
     it('should be 1st test', () => {
       assert.equal(1,1);  
     });
+
+    it('should compare objects', () => {
+      assert.deepEqual({name: 'joe'}, {name: 'joe'});  
+      // assert.deepEqual({name: 'joe'}, {name: 'steve'});  
+    });
   });
 });
