@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "t": "mocha ./tests/basics --recursive",
     "test": "cross-env NODE_ENV=development mocha \"./tests/**/*.test.js\" "
   },
   "author": "",
