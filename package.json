@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "cross-env": "^5.1.6",
     "mocha": "^5.2.0"
   },

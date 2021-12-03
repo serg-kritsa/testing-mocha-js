@@ -7,4 +7,5 @@ mocha ./tests --recursive
 ### all tests in folder and nested
 mocha ./tests/**/*.test.js
 
-
+## test async code
+chai plugin [https://www.chaijs.com/plugins/chai-as-promised/]
