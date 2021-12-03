@@ -7,6 +7,7 @@ const sinonChai = require('sinon-chai');
 chai.use(sinonChai);
 const rewire = require('rewire');
 
+// var instead of const
 var demo = rewire('./demo');
 
 describe('demo', ()=>{
