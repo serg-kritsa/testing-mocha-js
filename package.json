@@ -17,6 +17,8 @@
     "sinon": "^5.0.10",
     "sinon-chai": "^3.1.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mongoose": "^5.4.15"
+  },
   "description": ""
 }
