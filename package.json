@@ -6,7 +6,8 @@
     "t": "mocha ./tests/basics --recursive",
     "test1": "cross-env NODE_ENV=development mocha \"./   tests             /**/*.test.js\" ",
     "test":  "cross-env NODE_ENV=development mocha \"./   {,!(node_modules)/**/}*.test.js\" --exit",
-    "test2": "mocha \"./tests/**/*.js\" --recursive"
+    "test2": "mocha \"./tests/**/*.js\" --recursive",
+    "coverage": "cross-env NODE_ENV=development nyc --reporter=text npm test"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "chai-as-promised": "^7.1.1",
     "cross-env": "^5.1.6",
     "mocha": "^5.2.0",
+    "nyc": "^12.0.1",
     "rewire": "^4.0.1",
     "sinon": "^5.0.10",
     "sinon-chai": "^3.1.0",
